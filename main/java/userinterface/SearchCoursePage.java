@@ -14,7 +14,7 @@ public class SearchCoursePage extends PageObject {
 
   //public static final Target SELECT_COURSE = Target.the("Seleccionar certificacion").located(By.id("yui_3_17_2_1_1614457852457_299"));
   //public static final Target SELECT_COURSE = Target.the("Seleccionar certificacion").located(By.xpath("//*[@id='yui_3_17_2_1_1614462439342_296']"));
-    public static final Target SELECT_COURSE = Target.the("Seleccionar certificacion").located(By.xpath("//*[@id='page-search-index']"));
+    public static final Target SELECT_COURSE = Target.the("Seleccionar certificacion").located(By.xpath("//a[@href='https://operacion.choucairtesting.com/academy/course/view.php?id=1278']"));
 
-    public static final Target NAME_COURSE= Target.the("Extraer nombre de la certificacion").located(By.xpath(""));
+    public static final Target NAME_COURSE= Target.the("Extraer nombre de la certificacion").located(By.xpath("//*[@id='page-header']/div/div/div[2]/div[1]/div[1]/a/div/div/h1"));
 }
